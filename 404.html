@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>國光客運 — 找不到頁面 (404)</title>
+<style>
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: '微軟正黑體', 'Microsoft JhengHei', Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* ── 導覽列 ── */
+.navbar {
+    background: #003366;
+    color: white;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 56px;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+}
+.navbar-logo .bus-icon {
+    background: #e8a000;
+    color: #003366;
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.navbar .menu {
+    display: flex;
+    gap: 0;
+    font-size: 14px;
+}
+.navbar .menu a {
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    text-decoration: none;
+}
+.navbar .menu a:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+/* ── 主要 404 卡片 ── */
+.content {
+    margin-top: 80px;
+    padding: 20px 20px 60px;
+    text-align: center;
+}
+.error-card {
+    display: inline-block;
+    border: 1px solid #dde3ea;
+    border-top: 4px solid #003366;
+    padding: 48px 52px 44px;
+    background: white;
+    max-width: 540px;
+    width: 100%;
+    text-align: center;
+}
+.error-number {
+    font-size: 80px;
+    font-weight: bold;
+    color: #003366;
+    font-family: monospace;
+    line-height: 1;
+    margin-bottom: 8px;
+    letter-spacing: 4px;
+}
+.error-icon {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.error-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 8px;
+}
+.error-sub {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+.error-code {
+    display: inline-block;
+    background: #fff0f0;
+    color: #c0392b;
+    font-size: 11px;
+    font-family: monospace;
+    padding: 3px 10px;
+    border: 1px solid #f5c6c6;
+    margin-bottom: 28px;
+    letter-spacing: 0.5px;
+}
+.error-tip {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 28px;
+    line-height: 1.6;
+    background: #f0f4f8;
+    border-left: 3px solid #003366;
+    padding: 8px 14px;
+    text-align: left;
+}
+
+/* 按鈕 */
+.home-btn {
+    display: inline-block;
+    padding: 11px 32px;
+    background: #003366;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.home-btn:hover { background: #004080; }
+
+/* 聯絡替代管道 */
+.contact-bar {
+    border-top: 1px solid #eee;
+    padding-top: 18px;
+    margin-top: 4px;
+}
+.contact-bar p {
+    font-size: 13px;
+    color: #666;
+    margin: 0 0 10px;
+}
+.contact-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 14px;
+    border: 1px solid #003366;
+    color: #003366;
+    font-size: 12px;
+    text-decoration: none;
+}
+.contact-link:hover { background: #003366; color: white; }
+
+/* ── Footer ── */
+.footer {
+    background: #003366;
+    color: rgba(255,255,255,0.55);
+    text-align: center;
+    padding: 18px;
+    font-size: 12px;
+    line-height: 1.8;
+}
+.footer a { color: rgba(255,255,255,0.75); text-decoration: none; }
+.footer a:hover { color: #e8a000; }
+</style>
+</head>
+<body>
+
+<!-- 導覽列 -->
+<div class="navbar">
+    <a class="navbar-logo" href="/">
+        <div class="bus-icon">國</div>
+        國光客運
+    </a>
+    <div class="menu">
+        <a href="/">首頁</a>
+    </div>
+</div>
+
+<!-- 主要 404 卡片 -->
+<div class="content">
+    <div class="error-card">
+        <div class="error-number">404</div>
+        <div class="error-icon">🔍</div>
+        <div class="error-title">找不到您要的頁面</div>
+        <div class="error-sub">
+            抱歉，您所尋找的頁面不存在，<br>
+            可能已被移除、更名，或暫時無法使用。
+        </div>
+        <div class="error-code">HTTP 404 &nbsp;·&nbsp; Not Found</div>
+        <div class="error-tip">
+            💡 請確認網址是否正確，或點選下方按鈕返回首頁。
+        </div>
+        <div>
+            <a class="home-btn" href="/">返回首頁</a>
+        </div>
+
+        <!-- 聯絡替代管道 -->
+        <div class="contact-bar">
+            <p>需要協助？您可以透過以下方式聯繫我們：</p>
+            <div class="contact-links">
+                <a class="contact-link" href="tel:0800010138">📞 &nbsp;0800-010-138</a>
+                <span class="contact-link">✉️ &nbsp;線上客服信箱</span>
+                <span class="contact-link">🏢 &nbsp;各地服務窗口</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    © 國光汽車客運股份有限公司 &nbsp;|&nbsp;
+    客服專線：<a href="tel:0800010138">0800-010-138</a> &nbsp;|&nbsp;
+    服務時間：週一至週日 06:00–22:00
+</div>
+
+</body>
+</html>
